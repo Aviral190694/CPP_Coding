@@ -3,15 +3,21 @@
 using namespace std;
 
 enum Company{
-	Google = 1, Facebook, Twitter, Snapdeal, Microsoft
+	Google = 1,
+	Facebook,
+	Twitter,
+	Snapdeal,
+	Microsoft
 };
 
 int main(int argc, char const *argv[]){
 	
 	int choice;
+	
 	repeat:
 	cout << "Please enter a choice : ";
 	cin >> choice;
+	
 	switch(choice){
 		case Google: 
 				cout << "You have chosen Google.";
